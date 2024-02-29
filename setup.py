@@ -21,11 +21,11 @@ def _get_prod_version():
 _IS_TEST_BUILD = os.environ.get("IS_TEST_BUILD", 0)
 
 REQUIRES = [
-  "urllib3==1.26.12",
+  "urllib3==1.26.*",
   "python-dateutil",
   "python-dotenv==0.20.0",
   "six==1.16.0",
-  "Pinterest-Generated-Client==0.1.7"
+  "Pinterest-Generated-Client @ git+https://github.com/dinmo-io/pinterest-python-generated-api-client"
 ]
 
 long_description = (Path(__file__).parent / "README.md").read_text()
