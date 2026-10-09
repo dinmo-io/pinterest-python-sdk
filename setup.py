@@ -25,7 +25,7 @@ REQUIRES = [
   "python-dateutil",
   "python-dotenv>=0.20.0",
   "six==1.16.0",
-  "Pinterest-Generated-Client @ git+https://github.com/dinmo-io/pinterest-python-generated-api-client@urllib3"
+  "Pinterest-Generated-Client @ git+https://github.com/dinmo-io/pinterest-python-generated-api-client@2347118cd3f066cdb554bcf9fa4d89098aab3845"
 ]
 
 long_description = (Path(__file__).parent / "README.md").read_text()
